@@ -1149,6 +1149,7 @@ motionnotify(XEvent *e)
 void
 movemouse(const Arg *arg)
 {
+        return;
 	int x, y, ocx, ocy, nx, ny;
 	Client *c;
 	Monitor *m;
